@@ -3029,35 +3029,39 @@ textarea.form-control-lg {
   pointer-events: none;
   opacity: 0.65;
 }
-
+// ボタン
 .btn-primary {
   color: #fff;
   background-color: #9e9e9e;
   border-color: #9e9e9e;
 }
+// マウスオーバー
 .btn-primary:hover {
   color: #fff;
-  background-color: #cf5331;
-  border-color: #c34e2e;
+  background-color: #696969;
+  border-color: #696969;
 }
+// 入力検証後のボタンフォーカス色
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
-  background-color: #cf5331;
-  border-color: #c34e2e;
-  box-shadow: 0 0 0 0.25rem rgba(246, 122, 88, 0.5);
+  background-color: #696969;
+  border-color: #696969;
+  box-shadow: 0 0 0 0.25rem rgba(165, 165, 165, 0.5);
 }
+// ボタン押下時色
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #c34e2e;
-  border-color: #b74a2c;
+  background-color: #444444;
+  border-color: #444444;
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(246, 122, 88, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(133, 133, 133, 0.5);
 }
+// 入力チェック前の非活性
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: #c9c9c9;
+  border-color: #c9c9c9;
 }
 
 .btn-secondary {
