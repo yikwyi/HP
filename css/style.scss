@@ -49,6 +49,7 @@
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
   --bs-dark-rgb: 33, 37, 41;
+  --bs-grey-rgb: 60, 60, 60;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
@@ -7305,77 +7306,77 @@ textarea.form-control-lg {
   margin-bottom: auto !important;
 }
 
-// .mt-0 {
-//   margin-top: 0 !important;
-// }
+.mt-0 {
+  margin-top: 0 !important;
+}
 
-// .mt-1 {
-//   margin-top: 0.25rem !important;
-// }
+.mt-1 {
+  margin-top: 0.25rem !important;
+}
 
-// .mt-2 {
-//   margin-top: 0.5rem !important;
-// }
+.mt-2 {
+  margin-top: 0.5rem !important;
+}
 
-// .mt-3 {
-//   margin-top: 1rem !important;
-// }
+.mt-3 {
+  margin-top: 1rem !important;
+}
 
-// .mt-4 {
-//   margin-top: 1.5rem !important;
-// }
+.mt-4 {
+  margin-top: 1.5rem !important;
+}
 
-// .mt-5 {
-//   margin-top: 3rem !important;
-// }
+.mt-5 {
+  margin-top: 3rem !important;
+}
 
-// .mt-auto {
-//   margin-top: auto !important;
-// }
+.mt-auto {
+  margin-top: auto !important;
+}
 
-// .me-0 {
-//   margin-right: 0 !important;
-// }
+.me-0 {
+  margin-right: 0 !important;
+}
 
-// .me-1 {
-//   margin-right: 0.25rem !important;
-// }
+.me-1 {
+  margin-right: 0.25rem !important;
+}
 
-// .me-2 {
-//   margin-right: 0.5rem !important;
-// }
+.me-2 {
+  margin-right: 0.5rem !important;
+}
 
-// .me-3 {
-//   margin-right: 1rem !important;
-// }
+.me-3 {
+  margin-right: 1rem !important;
+}
 
-// .me-4 {
-//   margin-right: 1.5rem !important;
-// }
+.me-4 {
+  margin-right: 1.5rem !important;
+}
 
-// .me-5 {
-//   margin-right: 3rem !important;
-// }
+.me-5 {
+  margin-right: 3rem !important;
+}
 
-// .me-auto {
-//   margin-right: auto !important;
-// }
+.me-auto {
+  margin-right: auto !important;
+}
 
-// .mb-0 {
-//   margin-bottom: 0 !important;
-// }
+.mb-0 {
+  margin-bottom: 0 !important;
+}
 
-// .mb-1 {
-//   margin-bottom: 0.25rem !important;
-// }
+.mb-1 {
+  margin-bottom: 0.25rem !important;
+}
 
-// .mb-2 {
-//   margin-bottom: 0.5rem !important;
-// }
+.mb-2 {
+  margin-bottom: 0.5rem !important;
+}
 
-// .mb-3 {
-//   margin-bottom: 1rem !important;
-// }
+.mb-3 {
+  margin-bottom: 1rem !important;
+}
 
 .mb-4 {
   margin-bottom: 1.5rem ;
@@ -7758,6 +7759,11 @@ textarea.form-control-lg {
 .text-dark {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
+}
+
+.text-grey {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-grey-rgb), var(--bs-text-opacity)) !important;
 }
 
 .text-black {
@@ -11310,6 +11316,14 @@ body {
   color: rgba(255, 255, 255, 0.75) !important;
 }
 
+.text-grey-75 {
+  color: rgba(60, 60, 60, 0.75) !important;
+}
+
+.text-black-75 {
+  color: rgba(0, 0, 0, 0.75) !important;
+}
+
 .btn-xl {
   padding: 1.25rem 2.25rem;
   font-size: 0.85rem;
@@ -11348,9 +11362,12 @@ hr.divider-light {
   font-size: 0.9rem;
   padding: 0.75rem 0;
 }
+
+// ナビゲーションフォーカス時
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
   color: #f4623a;
 }
+// ナビゲーション選択時
 #mainNav .navbar-nav .nav-item .nav-link.active {
   color: #f4623a !important;
 }
